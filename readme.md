@@ -30,8 +30,8 @@
 
 
 ## While loop
-- Declare a variable and assign a number to it.
-- Print true to the console if the number is prime, and false otherwise.
+- Create an array of the following numbers [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+- Loop through this array and print the prime numbers. 
 
 Note: A number is prime if it is divided by 1 and itself only.
 
