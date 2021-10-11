@@ -113,3 +113,52 @@ const characters = [
 //   return item.gender == "female";
 // }
 // console.log(female);
+
+// Sort
+
+// Task 1
+// const name = characters.sort(sortName);
+// function sortName(item) {
+//   return item.sortName;
+// }
+// console.log(name);
+
+// Task 2
+
+// const gender = characters.sort(sortGender);
+// function sortGender(item) {
+//   return item.sortGender;
+// }
+// console.log(gender);
+
+// Every
+
+// const mass = characters.every(everyMass);
+// function everyMass(item) {
+//   return item.mass > 40;
+// }
+// console.log(mass);
+
+// task 2
+
+// const tall = characters.every(everytall);
+// function everytall(item) {
+//   return item.height < 200;
+// }
+// console.log(tall);
+
+// some
+
+// const eyecolor = characters.some(somecolor);
+// function somecolor(item) {
+//   return item.eye_color == "blue"
+// }
+// console.log(eyecolor);
+
+// task 2
+
+// const tall = characters.some(sometall);
+// function sometall(item) {
+//   return item.height > 210;
+// }
+// console.log(tall);
