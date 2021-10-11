@@ -77,12 +77,13 @@ const characters = [
 /*###########################*/
 
 /* sort */
-/* not solv */
-//  let names = characters.sort((a,b)=>{
-//     return b.name - a.name
-//  })
-//   console.log(names)
 
+//  let names = characters.sort((a,b)=>{
+//      return a.name.localeCompare(b.name)
+//   })
+
+//   console.log(names)
+// /* not solv */
 //   let female = characters.sort(ob=>ob.gender=="female")
 //      console.log(female)
 
