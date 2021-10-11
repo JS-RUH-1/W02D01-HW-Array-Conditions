@@ -33,12 +33,11 @@ for (i=0; i<=5; i++){
 console.log(str);
 // 
 let wnum =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-for(i=0; i<=wnum.length; i++){
-    for(j=0; j<=i; j++){
-        if (j%i==0){
-            console.log(" prime numbers")
-        }else{ console.log("not prime numbers")}
-    }
+let w = 0
+while(w <= wnum.length){
+  if (wnum[w]%2 !==0 && wnum[w]%wnum[w]){
+    console.log(wnum[w])
+  } w++
 }
 
 // 
@@ -84,7 +83,7 @@ function sum (a,b){
 let countedChar = characters.reduce(
     function (allName,character){
         {
-            if ( incharacter in allNames) {
+            if ( character in allNames) {
               allNames[character]++
             }
             else {
@@ -101,6 +100,7 @@ function maassGreater(item){
   
 }
 console.log(x);
+
 let y =characters.filter(gender0);
 function gender0(item){
   return item.gender='female';
@@ -123,6 +123,7 @@ characters.sort(function(a, b) {
   characters.sort(function (a, b) {
     return a.gender - b.gender;
   });
+
 //   
   let x = characters.map(myFunction) 
 function myFunction(char) {
