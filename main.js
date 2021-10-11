@@ -36,12 +36,22 @@ for (let i = 0; i < myVar; i++) {
 }
 document.write(string);
 
-// //While loop
-//     let arry2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-//     let i = 0
-//     let prime ="";
-//     document.write(prime)
-
+//While loop
+let nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+let i = 0;
+while (i < nums.length) {
+   let x = 2;
+   let prime = true;
+    while (x < nums[i]) {
+        if (nums[i] % x == 0) {
+            prime = false;
+            break;
+        }
+        x++;
+    }
+    if(prime) console.log(nums[i], "is prime ")
+    i++;
+}
 
 
 const characters = [
@@ -108,10 +118,11 @@ const f = characters.filter(character => character.gender ==='female');
 console.log(f)
 
 //SORT
-const sortNames = characters.sort(function(a, b){return a.name-b.name}) 
+const sortNames = fnames.sort() 
 console.log(sortNames)
 
-const sortGender = characters.sort(function(a, b){return a.gender-b.gender}) 
+const genders = characters.map(x => x.gender)
+const sortGender = genders.sort() 
 console.log(sortGender)
 
 // every
